@@ -1,8 +1,8 @@
 {
   "version": "3.0.3",
-  "version_name": "Sunrise PDF Editor v3.0.3 SUNRISE SECURITY POLICY",
-  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/latest",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/latest/download/Sunrise_PDF_Editor_Setup_v3_0_3_SUNRISE_SECURITY_POLICY.exe",
-  "release_notes": "v3.0.3 SUNRISE SECURITY POLICY: Sunrise Group 공통 보안정책을 반영했습니다. 런타임 PowerShell/Registry 사용을 금지하고, QSettings 대신 settings.json 기반 설정 저장 구조로 변경했으며, 업데이트 후 기존 사용자 설정을 유지합니다. 업데이트/공지 URL은 Sunrise Capture 방식처럼 GitHub Pages latest.json/notice.txt를 우선 사용하고 raw GitHub URL은 fallback으로만 사용합니다.",
+  "version_name": "Sunrise PDF Editor v3.0.3",
+  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v3.0.3",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v3.0.3/Sunrise_PDF_Editor_Setup_v3_0_3.exe",
+  "release_notes": "공식 SPE 아이콘이 전체 반영되었습니다. UI, 실행파일, 설치파일, 바탕화면 및 시작메뉴 바로가기 아이콘 표시를 정리했습니다.",
   "force": false
 }
