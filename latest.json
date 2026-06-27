@@ -1,8 +1,13 @@
 {
-  "version": "3.0.3",
-  "version_name": "Sunrise PDF Editor v3.0.3",
-  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v3.0.3",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v3.0.3/Sunrise_PDF_Editor_Setup_v3_0_3.exe",
-  "release_notes": "공식 SPE 아이콘이 전체 반영되었습니다. UI, 실행파일, 설치파일, 바탕화면 및 시작메뉴 바로가기 아이콘 표시를 정리했습니다.",
-  "force": false
+  "app_name": "Sunrise Cleaner",
+  "product_id": "SUNRISE-CLEANER-WIN-DESKTOP",
+  "company": "Sunrise Group",
+  "version": "2.5.5",
+  "channel": "stable",
+  "security_profile": "ENTERPRISE_SAFE_UPDATE_POLICY",
+  "update_policy": "SAFE_MANUAL_UPDATE_CHECK",
+  "runtime_policy": "NO_POWERSHELL_NO_RUNTIME_REGISTRY",
+  "release_url": "https://github.com/Peter-msk/Sunrise-Cleaner/tree/main",
+  "download_url": "https://github.com/Peter-msk/Sunrise-Cleaner/tree/main",
+  "notes": "Sunrise Group 보안 정책 업데이트: GitHub raw latest.json/notice.txt 기반 수동 업데이트 확인, 공지사항 1시간 주기 조회, 변경 감지 시 Windows 알림 1회, 자동 다운로드/자동 실행 금지, 사용자 업데이트 버튼을 통한 수동 업데이트 흐름만 허용합니다."
 }

@@ -1,4 +1,7 @@
-[Sunrise PDF Editor v3.0.3 업데이트]
-
-공식 SPE 아이콘이 전체 반영되었습니다.
-UI, 실행파일, 설치파일, 바탕화면 및 시작메뉴 바로가기 아이콘 표시를 정리했습니다.
+Sunrise Cleaner v2.5.5
+- Sunrise Group 보안 정책 업데이트
+- GitHub raw latest.json/notice.txt 기반 업데이트 확인
+- 공지사항 1시간 주기 조회
+- 공지 또는 최신 버전 정보 변경 시 Windows 알림 1회 표시
+- 자동 다운로드/자동 실행 금지
+- 사용자가 [업데이트 확인] 버튼을 누른 경우에만 업데이트 페이지 열기 허용
