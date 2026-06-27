@@ -1,8 +1,8 @@
 {
-  "version": "3.0.3",
-  "version_name": "Sunrise PDF Editor v3.0.3",
-  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v3.0.3",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v3.0.3/Sunrise_PDF_Editor_Setup_v3_0_3.exe",
-  "release_notes": "리본 UI 배치와 버튼 크기를 개선하고, 설정 창 실행 오류를 수정했습니다. 실행 취소/다시 실행 기능과 표 이동 시 원문 보호 안정성을 보완했습니다.",
+  "version": "3.0.4",
+  "version_name": "Sunrise PDF Editor v3.0.4",
+  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v3.0.4",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v3.0.4/Sunrise_PDF_Editor_Setup_v3_0_4.exe",
+  "release_notes": "중앙 보기 영역 편집 전/후 버튼, 작업이력 시점 복원, 공지사항 조회 창 표시 기능을 추가했습니다.",
   "force": false
 }
