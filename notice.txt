@@ -1,1 +1,1 @@
-Sunrise PDF Editor v3.0.2 GITHUB UPDATE READY: GitHub 기반 업데이트 확인 및 공지사항 표시 기능을 실제 저장소(Peter-msk/Sunrise-PDF-Editor) 기준으로 연결했습니다.
+Sunrise Group 공통 보안정책을 반영

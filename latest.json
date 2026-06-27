@@ -1,8 +1,8 @@
 {
-  "version": "3.0.2",
-  "version_name": "Sunrise PDF Editor v3.0.2 GITHUB UPDATE READY",
+  "version": "3.0.3",
+  "version_name": "Sunrise PDF Editor v3.0.3 SUNRISE SECURITY POLICY",
   "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/latest",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/latest/download/Sunrise_PDF_Editor_Setup_v3_0_2_GITHUB_UPDATE_READY.exe",
-  "release_notes": "v3.0.2 GITHUB UPDATE READY: GitHub latest.json 기반 업데이트 확인, GitHub notice.txt 기반 공지사항 표시, 실제 Peter-msk/Sunrise-PDF-Editor 저장소 URL 고정, 빈 latest.json/형식 오류 처리 개선을 반영했습니다. v3.0.1 NO TRIAL의 기간 제한 제거 상태와 v3.0.0 업무 기능은 유지됩니다.",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/latest/download/Sunrise_PDF_Editor_Setup_v3_0_3_SUNRISE_SECURITY_POLICY.exe",
+  "release_notes": "v3.0.3 SUNRISE SECURITY POLICY: Sunrise Group 공통 보안정책을 반영했습니다. 런타임 PowerShell/Registry 사용을 금지하고, QSettings 대신 settings.json 기반 설정 저장 구조로 변경했으며, 업데이트 후 기존 사용자 설정을 유지합니다. 업데이트/공지 URL은 Sunrise Capture 방식처럼 GitHub Pages latest.json/notice.txt를 우선 사용하고 raw GitHub URL은 fallback으로만 사용합니다.",
   "force": false
 }
