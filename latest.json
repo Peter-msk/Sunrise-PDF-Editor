@@ -1,1 +1,8 @@
-
+{
+  "version": "3.0.2",
+  "version_name": "Sunrise PDF Editor v3.0.2 GITHUB UPDATE READY",
+  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/latest",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/latest/download/Sunrise_PDF_Editor_Setup_v3_0_2_GITHUB_UPDATE_READY.exe",
+  "release_notes": "v3.0.2 GITHUB UPDATE READY: GitHub latest.json 기반 업데이트 확인, GitHub notice.txt 기반 공지사항 표시, 실제 Peter-msk/Sunrise-PDF-Editor 저장소 URL 고정, 빈 latest.json/형식 오류 처리 개선을 반영했습니다. v3.0.1 NO TRIAL의 기간 제한 제거 상태와 v3.0.0 업무 기능은 유지됩니다.",
+  "force": false
+}
