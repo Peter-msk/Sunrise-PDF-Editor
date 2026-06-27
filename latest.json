@@ -1,8 +1,8 @@
 {
-  "version": "3.0.5",
-  "version_name": "Sunrise PDF Editor v3.0.5",
-  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v3.0.5",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v3.0.5/Sunrise_PDF_Editor_Setup_v3_0_5.exe",
-  "release_notes": "Sunrise Capture 방식에 맞춰 업데이트 조회 시 공식 설치파일 다운로드, 기존 프로그램 종료, NSIS 설치파일 실행 흐름을 반영했습니다. 하단 공지바는 notice.txt 변경 또는 업데이트 가능 여부를 감지해 안내합니다.",
+  "version": "3.0.6",
+  "version_name": "Sunrise PDF Editor v3.0.6",
+  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v3.0.6",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v3.0.6/Sunrise_PDF_Editor_Setup_v3_0_6.exe",
+  "release_notes": "업데이트 조회 시 다운로드 경로를 묻지 않고 앱 전용 업데이트 폴더에 자동 다운로드한 뒤 기존 프로그램을 정상 종료하고 NSIS 설치파일을 실행하도록 개선했습니다. 하단 공지바와 notice.txt 변경 감지 구조는 유지됩니다.",
   "force": false
 }
