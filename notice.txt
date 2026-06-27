@@ -1,6 +1,5 @@
 Sunrise Cleaner v2.5.5
 - Sunrise Group 보안 정책 업데이트
-- GitHub raw latest.json/notice.txt 기반 업데이트 확인
 - 공지사항 1시간 주기 조회
 - 공지 또는 최신 버전 정보 변경 시 Windows 알림 1회 표시
 - 자동 다운로드/자동 실행 금지
