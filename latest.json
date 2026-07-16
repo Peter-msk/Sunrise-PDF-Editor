@@ -1,11 +1,11 @@
 {
-  "version": "4.0.0",
-  "version_name": "Sunrise PDF Editor v4.0.0",
-  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v4.0.0",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v4.0.0/Sunrise_PDF_Editor_Setup_v4_0_0.exe",
-  "sha256": "1c752698369b3213ebaefcdba36f375872e0c8b06f4fc8fb63d8a074b33c50b0",
-  "size_bytes": 111823856,
-  "release_notes": "Sunrise PDF Editor v4.0.0 최종 안정화 수정본입니다.\n\n주요 변경\n- 리본 기능을 업무별로 세분화하고, 각 그룹을 1열 3행 기준으로 재배치했습니다.\n- 리본에서 동일 QAction 중복 배치를 제거하고 버튼 글자를 생략 없이 표시합니다.\n- PDF Total Workbench, 인덱스/OCR, PDF 일괄 작업대, 전용 비교 작업대, 도면 검토, 측정 제어 계열을 제거했습니다.\n- 기본 한 페이지 보기를 유지하면서 축소 배율에 따라 2열·3열·4열 이상으로 자동 모아보기가 전환됩니다.\n- 삽입 항목에 고유 소유권 태그를 부여하고, 텍스트·메모·도장·표·워터마크 삭제를 검증합니다.\n- 삽입 주석 삭제가 원문 PDF 콘텐츠 변경으로 오인되던 감지 방식을 콘텐츠 스트림 기준으로 수정했습니다.\n- Ctrl+F1 및 항상 표시되는 복구 버튼으로 숨긴 리본을 다시 열 수 있습니다.\n- 일반 PDF 이미지 출력과 On-Map 이미지 출력을 분리하고 사용자 저장 경로·DPI 설정을 유지합니다.\n- Sunrise Group Authenticode 서명 게이트를 적용하여 메인 EXE, 업데이터, 네이티브 렌더 호스트와 설치파일을 빌드 후 검증합니다.\n- 앱과 설치파일 버전은 4.0.0 / 4.0.0.0으로 유지합니다.\n- DRM 우회, 암호 강제 해제, 복사방지 무력화 기능은 포함하지 않습니다.",
+  "version": "4.0.1",
+  "version_name": "Sunrise PDF Editor v4.0.1",
+  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v4.0.1",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v4.0.1/Sunrise_PDF_Editor_Setup_v4_0_1.exe",
+  "sha256": "62a4d62fdbbad271f13d5234f0646a0db27568d3bbe937556e216880b558773e",
+  "size_bytes": 110610600,
+  "release_notes": "Sunrise PDF Editor v4.0.1 안정화 릴리즈입니다.\n\n주요 변경\n- 삽입 항목 이동 모드에서 항목을 선택한 뒤 키보드 방향키로 이동할 수 있습니다.\n- 방향키를 길게 누르면 운영체제 키 반복에 의존하지 않고 60fps 목표 보간으로 부드럽게 연속 이동합니다.\n- 일반 방향키는 1pt, Alt+방향키는 0.25pt 정밀 이동, Shift+방향키는 8pt 고속 이동을 제공합니다.\n- 텍스트·주석·스탬프·워터마크·도형·선·표 그룹 이동을 지원하며 페이지 경계를 벗어나지 않도록 제한합니다.\n- 한 번의 키 입력 버스트에 Undo 스냅샷을 한 번만 생성하고, 임베디드 한글 글꼴 문서의 스냅샷 압축 지연을 제거했습니다.\n- 기존 클래식 v4.0.0 리본과 우측 빠른 작업 패널 레이아웃을 유지합니다.\n- 사용자용 빌드 진입점은 빠른 검토, 최종 릴리즈, 전체 27단계의 세 파일로 구분합니다.\n- 앱과 설치파일 버전은 4.0.1 / 4.0.1.0입니다.\n- DRM 우회, 암호 강제 해제, 복사방지 무력화 기능은 포함하지 않습니다.",
   "product_id": "SUNRISE-PDF-EDITOR-WIN-DESKTOP",
   "channel": "stable",
   "security_profile": "ENTERPRISE_SAFE_UPDATE_POLICY",
@@ -15,14 +15,22 @@
     "publisher": "Sunrise Group",
     "technology": "Windows Authenticode",
     "mode": "self-signed",
-    "source": "auto-created-current-user-certificate",
-    "expected_subject": "Sunrise Group",
-    "signed_file_count": 4,
-    "required_signed_file_count": 4,
+    "source": "existing-certificate-store-subject",
+    "expected_subject": "CN=Sunrise Group",
+    "signed_file_count": 3,
+    "signed_release_file_count": 3,
+    "required_signed_file_count": 3,
+    "required_release_roles": [
+      "distribution",
+      "update",
+      "execution"
+    ],
     "all_required_files_signed": true,
     "missing_required_files": [],
     "unsigned_development": false,
+    "same_certificate_for_all_required_files": true,
+    "signer_thumbprint": "EE6B909376AB56B86A519AD24ECD5C3551CD7B01",
     "official_certificate_required_for_external_distribution": true,
-    "report_file": "Sunrise_Group_Code_Signing_Report_v4_0_0.json"
+    "report_file": "Sunrise_Group_Code_Signing_Report_v4_0_1.json"
   }
 }
