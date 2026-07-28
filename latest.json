@@ -1,11 +1,11 @@
 {
-  "version": "4.0.1",
-  "version_name": "Sunrise PDF Editor v4.0.1",
-  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v4.0.1",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v4.0.1/Sunrise_PDF_Editor_Setup_v4_0_1.exe",
-  "sha256": "62a4d62fdbbad271f13d5234f0646a0db27568d3bbe937556e216880b558773e",
-  "size_bytes": 110610600,
-  "release_notes": "Sunrise PDF Editor v4.0.1 안정화 릴리즈입니다.\n\n주요 변경\n- 삽입 항목 이동 모드에서 항목을 선택한 뒤 키보드 방향키로 이동할 수 있습니다.\n- 방향키를 길게 누르면 운영체제 키 반복에 의존하지 않고 60fps 목표 보간으로 부드럽게 연속 이동합니다.\n- 일반 방향키는 1pt, Alt+방향키는 0.25pt 정밀 이동, Shift+방향키는 8pt 고속 이동을 제공합니다.\n- 텍스트·주석·스탬프·워터마크·도형·선·표 그룹 이동을 지원하며 페이지 경계를 벗어나지 않도록 제한합니다.\n- 한 번의 키 입력 버스트에 Undo 스냅샷을 한 번만 생성하고, 임베디드 한글 글꼴 문서의 스냅샷 압축 지연을 제거했습니다.\n- 기존 클래식 v4.0.0 리본과 우측 빠른 작업 패널 레이아웃을 유지합니다.\n- 사용자용 빌드 진입점은 빠른 검토, 최종 릴리즈, 전체 27단계의 세 파일로 구분합니다.\n- 앱과 설치파일 버전은 4.0.1 / 4.0.1.0입니다.\n- DRM 우회, 암호 강제 해제, 복사방지 무력화 기능은 포함하지 않습니다.",
+  "version": "4.1.0",
+  "version_name": "Sunrise PDF Editor v4.1.0",
+  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v4.1.0",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v4.1.0/Sunrise_PDF_Editor_Setup_v4_1_0.exe",
+  "sha256": "88c2bb9676dac5b39852a5bcede521e109a32e80e9f419d4497c4165f84eaf83",
+  "size_bytes": 110646568,
+  "release_notes": "Sunrise PDF Editor v4.1.0 시큐어디스크 호환 및 온맵 성능 보존 릴리즈입니다.\n\n주요 변경\n- 일반 로컬·네트워크 PDF는 기존 v4.0.1 온맵 고속 경로를 그대로 사용합니다.\n- 일반 경로 개방이 차단된 문서에만 서명된 메인 프로세스의 읽기 전용 Secure Direct-Read 경로를 적용합니다.\n- 파일 기반 메모리 매핑이 차단되는 환경은 ReadFile 기반 페이지파일 공유메모리로 폴백하며 PDF 디스크 복사본을 만들지 않습니다.\n- Python 렌더 워커와 SunriseRenderHost는 원본 시큐어 경로를 다시 열지 않고 명명 공유메모리로 문서를 전달받습니다.\n- 시큐어 문서의 레이어 상태 및 구조적 편집 결과는 AppData PDF가 아닌 현재 작업 문서의 메모리 스냅샷으로 렌더링합니다.\n- 시큐어 모드에서는 PDF 자동저장, 디스크 타일 캐시, QtPdf 임시 PDF 및 레이어 Atlas PDF 생성을 차단합니다.\n- 온맵 이미지 추출도 공유메모리 입력을 지원합니다.\n- SunriseRenderHost는 support 구성요소로 동일 인증서 서명 대상이지만 3역할 릴리즈 게이트에는 포함되지 않습니다.\n- DRM/DLP를 해제하거나 우회하지 않으며 회사 보안정책의 애플리케이션 허용 승인이 필요할 수 있습니다.\n- 앱과 설치파일 버전은 4.1.0 / 4.1.0.0입니다.",
   "product_id": "SUNRISE-PDF-EDITOR-WIN-DESKTOP",
   "channel": "stable",
   "security_profile": "ENTERPRISE_SAFE_UPDATE_POLICY",
@@ -17,7 +17,7 @@
     "mode": "self-signed",
     "source": "existing-certificate-store-subject",
     "expected_subject": "CN=Sunrise Group",
-    "signed_file_count": 3,
+    "signed_file_count": 4,
     "signed_release_file_count": 3,
     "required_signed_file_count": 3,
     "required_release_roles": [
@@ -29,8 +29,8 @@
     "missing_required_files": [],
     "unsigned_development": false,
     "same_certificate_for_all_required_files": true,
-    "signer_thumbprint": "EE6B909376AB56B86A519AD24ECD5C3551CD7B01",
+    "signer_thumbprint": "402246B402E58160D2E48C48E147CADEE05A7F61",
     "official_certificate_required_for_external_distribution": true,
-    "report_file": "Sunrise_Group_Code_Signing_Report_v4_0_1.json"
+    "report_file": "Sunrise_Group_Code_Signing_Report_v4_1_0.json"
   }
 }
