@@ -1,11 +1,11 @@
 {
-  "version": "4.3.0",
-  "version_name": "Sunrise PDF Editor v4.3.0",
-  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v4.3.0",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v4.3.0/Sunrise_PDF_Editor_Setup_v4_3_0.exe",
-  "sha256": "b821172a72a9998de5c0b0118057a96a156e4deb3163a051bf9807711ee0e616",
-  "size_bytes": 110718656,
-  "release_notes": "Sunrise PDF Editor v4.3.0 시큐어디스크 호환 및 온맵 성능 보존 릴리즈입니다.\n\n주요 변경\n- 일반 로컬·네트워크 PDF는 기존 v4.0.1 온맵 고속 경로를 그대로 사용합니다.\n- 일반 경로 개방이 차단된 문서에만 서명된 메인 프로세스의 읽기 전용 Secure Direct-Read 경로를 적용합니다.\n- 파일 기반 메모리 매핑이 차단되는 환경은 ReadFile 기반 페이지파일 공유메모리로 폴백하며 PDF 디스크 복사본을 만들지 않습니다.\n- Python 렌더 워커와 SunriseRenderHost는 원본 시큐어 경로를 다시 열지 않고 명명 공유메모리로 문서를 전달받습니다.\n- 시큐어 문서의 레이어 상태 및 구조적 편집 결과는 AppData PDF가 아닌 현재 작업 문서의 메모리 스냅샷으로 렌더링합니다.\n- 시큐어 모드에서는 PDF 자동저장, 디스크 타일 캐시, QtPdf 임시 PDF 및 레이어 Atlas PDF 생성을 차단합니다.\n- 온맵 이미지 추출도 공유메모리 입력을 지원합니다.\n- SunriseRenderHost는 support 구성요소로 동일 인증서 서명 대상이지만 3역할 릴리즈 게이트에는 포함되지 않습니다.\n- DRM/DLP를 해제하거나 우회하지 않으며 회사 보안정책의 애플리케이션 허용 승인이 필요할 수 있습니다.\n- 앱과 설치파일 버전은 4.3.0 / 4.3.0.0입니다.",
+  "version": "4.4.0",
+  "version_name": "Sunrise PDF Editor v4.4.0",
+  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v4.4.0",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v4.4.0/Sunrise_PDF_Editor_Setup_v4_4_0.exe",
+  "sha256": "6d6215299fb8f7b8c8bbf5b7b5f0863f7fc1099ac387208b6cf37873cb97bda6",
+  "size_bytes": 112159296,
+  "release_notes": "Sunrise PDF Editor v4.4.0 안정화 릴리즈입니다.\n\n주요 변경\n- Professional Blue Light + Office Compact Solid UI 계약을 유지합니다.\n- 모듈 책임 세분화와 불필요한 과거 코드 정리 결과를 현행 기준으로 승격했습니다.\n- heavy On-Map / OCG / Native fail-closed / bounded cache·prefetch 성능 계약을 유지합니다.\n- 저장되지 않은 일반 편집의 온맵 export stale-source 위험을 차단하고 locked OCG 상태를 보존합니다.\n- Secure Direct-Read 공유메모리 경로와 회사 보안 PC용 document-independent core release 계약을 유지합니다.\n- 실행, updater, installer, Windows VersionInfo, Native Host/Core, code-signing 및 certification identity를 4.4.0으로 통일했습니다.\n- DRM/DLP를 해제하거나 우회하지 않으며 회사 보안정책의 애플리케이션 허용 승인이 필요할 수 있습니다.\n- 앱과 설치파일 버전은 4.4.0 / 4.4.0.0입니다.",
   "product_id": "SUNRISE-PDF-EDITOR-WIN-DESKTOP",
   "channel": "stable",
   "security_profile": "ENTERPRISE_SAFE_UPDATE_POLICY",
@@ -29,8 +29,8 @@
     "missing_required_files": [],
     "unsigned_development": false,
     "same_certificate_for_all_required_files": true,
-    "signer_thumbprint": "402246B402E58160D2E48C48E147CADEE05A7F61",
+    "signer_thumbprint": "9033AC7A6582B4E0EED685932116E1BE96B2D279",
     "official_certificate_required_for_external_distribution": true,
-    "report_file": "Sunrise_Group_Code_Signing_Report_v4_3_0.json"
+    "report_file": "Sunrise_Group_Code_Signing_Report_v4_4_0.json"
   }
 }
