@@ -1,13 +1,13 @@
-[Sunrise PDF Editor v4.4.1 업데이트 안내]
+[Sunrise PDF Editor v4.5.0 업데이트 안내]
 
-Sunrise PDF Editor v4.4.1 안정화 릴리즈입니다.
+Sunrise PDF Editor v4.5.0 Control 정식 연동 릴리즈입니다.
 
 주요 변경
-- Professional Blue Light + Office Compact Solid UI 계약을 유지합니다.
-- 모듈 책임 세분화와 불필요한 과거 코드 정리 결과를 현행 기준으로 승격했습니다.
-- heavy On-Map / OCG / Native fail-closed / bounded cache·prefetch 성능 계약을 유지합니다.
-- 저장되지 않은 일반 편집의 온맵 export stale-source 위험을 차단하고 locked OCG 상태를 보존합니다.
-- Secure Direct-Read 공유메모리 경로와 회사 보안 PC용 document-independent core release 계약을 유지합니다.
-- 실행, updater, installer, Windows VersionInfo, Native Host/Core, code-signing 및 certification identity를 4.4.1으로 통일했습니다.
-- DRM/DLP를 해제하거나 우회하지 않으며 회사 보안정책의 애플리케이션 허용 승인이 필요할 수 있습니다.
-- 앱과 설치파일 버전은 4.4.1 / 4.4.1.0입니다.
+- Sunrise Control v1을 정식 startup/update 정책으로 승격했습니다.
+- operation allow/maintenance/block 및 update allow/block/required를 적용합니다.
+- minimum_version은 숫자 기반 Semantic Version으로 비교합니다.
+- 새 버전 발견 시 업데이트 진행 또는 프로그램 종료 두 결과만 허용합니다.
+- updater 누락·요청 생성 실패·편집문서 종료취소로 구버전을 계속 사용하는 우회경로를 차단했습니다.
+- Control이 update=block이면 제품의 update entry를 비활성화합니다.
+- 기존 latest.json, SHA256, installer/updater, PDF/On-Map 계약은 유지합니다.
+- 앱과 설치파일 버전은 4.5.0 / 4.5.0.0입니다.
