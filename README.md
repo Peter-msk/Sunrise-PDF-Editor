@@ -1,5 +1,9 @@
 # Sunrise PDF Editor
 
+![Version](https://img.shields.io/badge/version-4.5.0-1668c7)
+![플랫폼](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4)
+![Python](https://img.shields.io/badge/Python-3.1.2-1668c7)
+
 > PDF 문서의 페이지 구성, 삽입·주석·편집, 변환, 검토, 비교 및 결과 출력을 하나의 작업공간에서 수행하기 위한 Windows PDF 통합 편집 도구
 
 ## 1. 프로그램 소개
