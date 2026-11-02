@@ -1,18 +1,18 @@
 {
   "schema_version": "1.1",
-  "latest_version": "4.6.1",
+  "latest_version": "4.6.2",
   "app_id": "SUNRISE-PDF-EDITOR-WIN-DESKTOP",
   "package_kind": "installer",
-  "download_file_name": "Sunrise_PDF_Editor_Setup_v4_6_1.exe",
-  "file_size_bytes": 113745992,
-  "updater_engine": "signed-exe-only-v4.6.1",
-  "version": "4.6.1",
-  "version_name": "Sunrise PDF Editor v4.6.1",
-  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v4.6.1",
-  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v4.6.1/Sunrise_PDF_Editor_Setup_v4_6_1.exe",
-  "sha256": "4dad6c966a270f6ab2a75a7d937c517d9762c747ac077102a33c95f3b3d6c091",
-  "size_bytes": 113745992,
-  "release_notes": "Sunrise PDF Editor v4.6.1 업데이트 안내.\n- Sunrise Capture와 동일한 업데이트 안내 및 전용 설치형 업데이터 계약 적용.\n- 공식 Release 빌드에서 설치파일, 업데이터, 본체 Authenticode 서명 필수.\n- 오프라인 무캐시 시 업데이트 차단, Control v1 운영 차단정책 유지.\n- 기존 PDF 편집, 온맵, 원본 보호 기능 유지.",
+  "download_file_name": "Sunrise_PDF_Editor_Setup_v4_6_2.exe",
+  "file_size_bytes": 113744928,
+  "updater_engine": "signed-exe-only-v4.6.2",
+  "version": "4.6.2",
+  "version_name": "Sunrise PDF Editor v4.6.2",
+  "release_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/tag/v4.6.2",
+  "download_url": "https://github.com/Peter-msk/Sunrise-PDF-Editor/releases/download/v4.6.2/Sunrise_PDF_Editor_Setup_v4_6_2.exe",
+  "sha256": "83cd3e47d3e866fccd50a11af22a4a6af83bc5b5669c9fa257293b2f23e54d21",
+  "size_bytes": 113744928,
+  "release_notes": "Sunrise PDF Editor v4.6.2 업데이트 안내.\n- Sunrise Capture와 동일한 업데이트 안내 및 전용 설치형 업데이터 계약 적용.\n- 공식 Release 빌드에서 설치파일, 업데이터, 본체 Authenticode 서명 필수.\n- 오프라인 무캐시 시 업데이트 차단, Control v1 운영 차단정책 유지.\n- 기존 PDF 편집, 온맵, 원본 보호 기능 유지.",
   "product_id": "SUNRISE-PDF-EDITOR-WIN-DESKTOP",
   "channel": "stable",
   "security_profile": "ENTERPRISE_SAFE_UPDATE_POLICY",
@@ -38,6 +38,6 @@
     "same_certificate_for_all_required_files": true,
     "signer_thumbprint": "3B9397305C5C081FF1C86E10B7666A950E3B6795",
     "official_certificate_required_for_external_distribution": true,
-    "report_file": "Sunrise_Group_Code_Signing_Report_v4_6_1.json"
+    "report_file": "Sunrise_Group_Code_Signing_Report_v4_6_2.json"
   }
 }
